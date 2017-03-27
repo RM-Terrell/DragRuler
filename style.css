@@ -1,0 +1,31 @@
+#DragBar {
+  width: 894px; height: 15px;
+    border-style: solid;
+    border-color: #484848;
+    background-color: transparent;
+     
+}
+#container{
+  width:900px;
+  height:400px;
+  border-style:solid;
+  border-color:black;
+}
+
+.DragBarBtn {
+  background-color: #1ab394;
+  color:#FFFFFF;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  cursor: pointer;
+  touch-action: manipulation;
+  
+}
+
+.DragBarBtn:hover{
+  background-color: #18a689;
+}
